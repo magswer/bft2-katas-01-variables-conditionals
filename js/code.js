@@ -1,7 +1,12 @@
 function evenOrOdd(n) {
-    return "";
+   let a=(n%2);
+   if (a===0){
+    return "even";
+   } else {
+    return "odd"
+   }
 }
 
 function greeting(name) {
-    return "";
+    return "Hola, "+ name + "!";
 }
