@@ -8,5 +8,6 @@ function evenOrOdd(n) {
 }
 
 function greeting(name) {
-    return "Hola, "+ name + "!";
+   /* return "Hola, "+ name + "!";*/
+   return `Hola, ${name}!`;
 }
